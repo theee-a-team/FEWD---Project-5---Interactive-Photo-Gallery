@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/baguetteBox.min.css">​
+    <title>Adrian's Interactive Photo Gallery</title>
+</head>
+<body>
+    <div class="search">
+        <input type="search" name="search" id="search" placeholder="Search">
+    </div>
+    <div class="gallery">
+        <a class="item" href="img/01.jpg" data-caption="I love hay bales. Took this snap on a drive through the countryside past some straw fields.">
+            <img src="img/thmb/01.jpg" alt="Hay bales in open field">
+        </a>
+        <a class="item" href="img/02.jpg" data-caption="The lake was so calm today. We had a great view of the snow on the mountains from here.">
+            <img src="img/thmb/02.jpg" alt="Calm lake view with ice-capped mountains in background">
+        </a>
+        <a class="item" href="img/03.jpg" data-caption="I hiked to the top of the mountain and got this picture of the canyon and trees below.">
+            <img src="img/thmb/03.jpg" alt="Green field with mountains in background">
+        </a>
+        <a class="item" href="img/04.jpg" data-caption="It was amazing to see an iceberg up close, it was so cold but didn not snow today.">
+            <img src="img/thmb/04.jpg" alt="Iceberg floating in water with ice-capped mountains in background">
+        </a>
+        <a class="item" href="img/05.jpg" data-caption="The red cliffs were beautiful. It was really hot in the desert but we did a lot of walking through the canyons.">
+            <img src="img/thmb/05.jpg" alt="Red rock formations towering in desert">
+        </a>
+        <a class="item" href="img/06.jpg" data-caption="Fall is coming, I love when the leaves on the trees start to change color.">
+            <img src="img/thmb/06.jpg" alt="Trees, some with red leaves, surrounded by yellowing grass and bushes">
+        </a>
+        <a class="item" href="img/07.jpg" data-caption="I drove past this plantation yesterday, everything is so green!">
+            <img src="img/thmb/07.jpg" alt="Green plantation in valley">
+        </a>
+        <a class="item" href="img/08.jpg" data-caption="My summer vacation to the Oregon Coast. I love the sandy dunes!">
+            <img src="img/thmb/08.jpg" alt="Sand dune sloping upwards with plants growing atop">
+        </a>
+        <a class="item" href="img/09.jpg" data-caption="We enjoyed a quiet stroll down this countryside lane.">
+            <img src="img/thmb/09.jpg" alt="Narrow road lined with bushes and trees">
+        </a>
+        <a class="item" href="img/10.jpg" data-caption="Sunset at the coast! The sky turned a lovely shade of orange.">
+            <img src="img/thmb/10.jpg" alt="Coastline with waves crashing at sunset">
+        </a>
+        <a lass="item" href="img/11.jpg" data-caption="I did a tour of a cave today and the view of the landscape below was breathtaking.">
+            <img src="img/thmb/11.jpg" alt="Inside cave, looking out at view of the valley">
+        </a>
+        <a class="item" href="img/12.jpg" data-caption="I walked through this meadow of bluebells and got a good view of the snow on the mountain before the fog came in.">
+            <img src="img/thmb/12.jpg" alt="Field with trees and bluebells and ice-capped mountains in background">
+        </a>
+    </div>
+    <script src="js/baguetteBox.min.js" async></script>
+    <script>window.addEventListener('load', function () {baguetteBox.run('.gallery');});
+    </script>
+    <script src="js/searchFilter.js"></script>
+    <script src="js/app.js" async></script>
+</body>
+</html>
